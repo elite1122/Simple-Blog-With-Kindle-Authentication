@@ -7,7 +7,7 @@ export default function Navbar() {
     const { isAuthenticated, login, logout } = useKindeAuth();
 
     return (
-        <nav className="flex justify-between items-center  p-5">
+        <nav className="flex justify-between items-center  px-5 py-6 sticky top-0 z-50">
             <div className="text-2xl font-bold">My Blog</div>
             <div className="flex gap-4">
                 <Link href="/" className="hover:underline">

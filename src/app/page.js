@@ -7,8 +7,8 @@ const Home = async () => {
       <h1 className="text-center text-4xl font-extrabold text-gray-900 mb-12 tracking-wide">
         Explore Our Latest Blog
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-12">
-        {posts.slice(0, 9).map((post) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 md:px-12">
+        {posts.slice(0, 12).map((post) => (
           <div
             key={post.id}
             className="bg-white shadow-lg rounded-2xl overflow-hidden transform transition-all hover:-translate-y-2 hover:shadow-2xl"
