@@ -26,7 +26,7 @@ const Blogs = () => {
     return (
         <div className="py-12 bg-gray-100 min-h-screen">
             <h1 className="text-center text-4xl font-extrabold text-gray-900 mb-12 tracking-wide">
-                Explore Our All Blog
+                Explore Our All Blogs
             </h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 md:px-12">
